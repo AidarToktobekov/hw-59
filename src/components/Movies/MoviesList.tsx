@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import Movie from "./Movie";
 import {Movies} from "../../types";
 
-const Main=()=>{
+const MoviesList=()=>{
     const [inputValue, setInputValue] = useState('');
     const inputChange = (e: React.ChangeEvent<HTMLInputElement>) =>{
         setInputValue(e.target.value);
@@ -74,4 +74,4 @@ const Main=()=>{
     )
 }
     
-export default Main;
+export default MoviesList;

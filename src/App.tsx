@@ -1,6 +1,7 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css'
-import Main from './components/Movies/Main'
+import MoviesList from './components/Movies/MoviesList'
+import Joke from './components/Jokes/Joke'
 
 
 const App=()=> {
@@ -8,7 +9,8 @@ const App=()=> {
   
   return (
     <>
-     <Main/>
+     <MoviesList/>
+     <Joke></Joke>
     </>
   )
 }
